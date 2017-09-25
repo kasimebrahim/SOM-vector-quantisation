@@ -29,7 +29,9 @@ for d in data:
                 nearest_x, nearest_y = x,y
     point_list.append((nearest_x, nearest_y))
 
+print "input data"
 print data
+print "visualisation of the clustered data"
 for x in range(0, n.output_x_size):
     for y in range(0, n.output_y_size):
         if point_list.count((x,y))>0:
