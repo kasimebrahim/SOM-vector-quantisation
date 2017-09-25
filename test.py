@@ -8,6 +8,10 @@ import numpy as np
 from Network import Network
 from functions import distance
 
+"""
+this demo clusters and visualises the data bellow 
+"""
+
 n = Network(10,10, 2)
 
 data = np.array([(0.1, 1.12), (0.034, 1.065), (0.101, 1.12), (1.01, 0.32), (1.08, 0.0301), (1.07, 0.09)])
