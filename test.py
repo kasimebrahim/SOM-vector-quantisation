@@ -11,7 +11,7 @@ from functions import distance
 n = Network(10,10, 2)
 
 data = np.array([(0.1, 1.12), (0.034, 1.065), (0.101, 1.12), (1.01, 0.32), (1.08, 0.0301), (1.07, 0.09)])
-n.train(10, 0.1, data)
+n.train(10, 0.01, data)
 
 point_list = []
 for d in data:
